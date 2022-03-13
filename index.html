@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Covid Onbarding Pass</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "virus.js"></script>
+
+</head>
+
+
+<body>
+
+<h1 type =text id ="here">ON BOARDING PASS</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+
+
+<p class = "questions">Do you experience any symptoms like below recently?
+    <list>
+        <p>fever</p>
+        <p>cough</p>
+        <p>loss of taste or smell</p>
+    </list>
+</p>
+<input type = "radio" id = "mc" name = "question1" value = "YES"> YES<br>
+<input type = "radio" id = "mc" name = "question1" value = "NO"> NO<br>
+
+<p class = "questions">Is your temperature above 100 degees Fahrenheit or 37.8 degrees Celsius?</p>
+
+<input type = "radio" id = "mc" name = "question2" value = "YES"> YES<br>
+<input type = "radio" id = "mc" name = "question2" value = "NO"> NO<br>
+
+<p class = "questions">In the last 10 days, have you been diagnosed with COVID-19 or are you awaiting the results of a COVID-19 test?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "YES"> YES<br>
+<input type = "radio" id = "mc" name = "question3" value = "NO"> NO<br>
+
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</html>
+
+</body>
+
+
+
